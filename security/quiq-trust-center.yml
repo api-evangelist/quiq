@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://quiq.com/platform/security/
+certifications:
+- SOC 2 Type II
+- HIPAA
+- GDPR
+- CCPA
+- EU AI Act
+sla:
+  uptime_target: 99.999%
+notes: >-
+  Quiq publishes a security overview page (not a dedicated trust portal) and a downloadable Security
+  Overview whitepaper. Compliance framing targets regulated industries (financial services, healthcare).
+evidence:
+- source: https://quiq.com/platform/security/
+  keywords:
+  - soc 2 type ii
+  - hipaa
+  - gdpr
+  - ccpa
+  - eu ai act

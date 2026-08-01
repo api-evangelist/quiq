@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://quiq.com/platform/security/
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: Published on quiq.com/platform/security/ security overview
+- id: hipaa
+  conforms: true
+  evidence: Published HIPAA compliance for healthcare customers
+- id: gdpr
+  conforms: true
+  evidence: Published GDPR compliance
+- id: ccpa
+  conforms: true
+  evidence: Published CCPA compliance
+- id: eu-ai-act
+  conforms: true
+  evidence: Published EU AI Act compliance
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: fedramp
+  conforms: false

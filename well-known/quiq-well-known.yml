@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://quiq.com/.well-known/
+host: https://quiq.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: quiq-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  goquiq.com/.well-known/security.txt 301-redirects to the same quiq.com canonical document.
+  developers.quiq.com serves no /.well-known/ documents (all 404).

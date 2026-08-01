@@ -1,8 +1,14 @@
 aid: quiq
 name: Quiq
-description: 'Quiq is a company surfaced as a portfolio company of foundry-group and added to the API
-  Evangelist network as a stub for enrichment. Sector: customer-experience. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Quiq is an enterprise conversational AI and customer-experience platform for building, deploying,
+  and governing agentic AI systems across digital and voice channels. Its products include AI Agents
+  that resolve customer questions, AI Assistants that coach human agents in real time, Voice AI Agents,
+  AI Workflows, AI Analysts, and a unified Digital Contact Center. Developers integrate through a REST
+  API and webhooks for building native chat experiences, the AI Studio orchestration framework for
+  serverless AI assistants, Quiq Bots for messaging automation, Rich Messaging for cross-platform
+  message formatting, and Message-UI Extensions plus Salesforce and Oracle UI integrations. Quiq
+  maintains SOC 2 Type II, HIPAA, GDPR, CCPA, and EU AI Act compliance with a 99.999% uptime SLA.
 url: https://raw.githubusercontent.com/api-evangelist/quiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +16,94 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://quiq.com/wp-content/uploads/2026/05/Quiq-Banner.png
 tags:
 - Company
 - Customer Experience
-apis: []
+- Conversational AI
+- Contact Center
+- Messaging
+- Customer Support
+- AI Agents
+- Chatbots
+- Voice AI
+apis:
+- name: Quiq Messaging REST API
+  description: >-
+    Quiq's REST API and webhooks for building native chat and messaging applications on any platform,
+    with event notifications delivered via webhooks. The API is tenant-scoped to each customer
+    organization's Quiq instance on the goquiq.com platform.
+  humanURL: https://developers.quiq.com/api/docs
+  baseURL: https://goquiq.com
+  properties:
+  - type: Documentation
+    url: https://developers.quiq.com/docs/home
+  - type: APIReference
+    url: https://developers.quiq.com/api/docs
+  - type: Webhooks
+    url: https://developers.quiq.com/api/docs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 common:
 - type: Website
   url: https://quiq.com
+- type: DeveloperPortal
+  url: https://developers.quiq.com
+- type: Documentation
+  url: https://developers.quiq.com/docs/home
+- type: APIReference
+  url: https://developers.quiq.com/api/docs
+- type: Support
+  url: https://knowledge.quiq.com
+- type: Blog
+  url: https://quiq.com/blog/
+- type: Pricing
+  url: https://quiq.com/pricing/
+- type: SignUp
+  url: https://login.goquiq.com
+- type: Login
+  url: https://login.goquiq.com
+- type: TermsOfService
+  url: https://quiq.com/tos/
+- type: PrivacyPolicy
+  url: https://quiq.com/privacypolicy/
+- type: Webhooks
+  url: https://developers.quiq.com/api/docs
+- type: WellKnown
+  url: well-known/quiq-well-known.yml
+- type: SecurityTxt
+  url: well-known/quiq-security.txt
+- type: VulnerabilityDisclosure
+  url: security/quiq-vulnerability-disclosure.yml
+- type: Security
+  url: https://quiq.com/responsible-disclosure/
+- type: TrustCenter
+  url: security/quiq-trust-center.yml
+- type: Compliance
+  url: https://quiq.com/platform/security/
+- type: Conformance
+  url: conformance/quiq-conformance.yml
+- type: DomainSecurity
+  url: security/quiq-domain-security.yml

@@ -1,0 +1,6 @@
+Contact: mailto:security@quiq.com
+Expires: 2026-12-31T00:00:00.000Z
+Encryption: https://yopass.quiq.com
+Preferred-Languages: en
+Canonical: https://quiq.com/.well-known/security.txt
+Policy: https://quiq.com/responsible-disclosure/

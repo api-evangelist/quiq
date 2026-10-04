@@ -48,7 +48,7 @@ tags:
 - Conversational AI
 - Contact Center
 - Messaging
-- Customer-Support
+- Customer Support
 - AI Agents
 - Chatbots
 - Voice AI
@@ -62,6 +62,7 @@ tags_raw:
 - AI Agents
 - Chatbots
 - Voice AI
+- Customer-Support
 apis:
 - name: Quiq Messaging REST API
   description: >-
